@@ -1,19 +1,19 @@
-variable "test" {
+variable "test1" {
   default = "Welcome to first test"
 
 }
 
-variable "test1" {
+variable "test2" {
   default = "Welcome to second test"
 
 }
 
-output "test" {
-  value = var.test
+output "test1" {
+  value = var.test1
 }
 
 output "test2" {
-  value = var.test1
+  value = var.test2
 }
 
 
