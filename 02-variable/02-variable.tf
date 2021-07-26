@@ -17,7 +17,7 @@ output "test2" {
 }
 
 variable "Project" {
-  default = ["DevOps","AWS"]
+  default = [ "DevOps", "AWS" ]
 }
 
 variable "Project_Details" {
@@ -33,6 +33,10 @@ output "Project" {
   value = var.Project
 }
 
+output "Project_Details_1" {
+  value = var.Project_Details [0]
+}
+
 output "Project_Details" {
-  value = var.Project_Details
+  value = var.Project_Details [1]
 }
