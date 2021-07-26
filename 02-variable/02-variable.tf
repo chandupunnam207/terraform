@@ -43,11 +43,10 @@ variable "Training_Numbers" {
   default = {
     Training_one = "Devops"
     Training_two = "AWS"
-
   }
 }
 
 output "Training_Numbers" {
-  value = var.Training_Numbers
-  }
+  value = var.Training_Numbers ["DevOps"]
+}
 
