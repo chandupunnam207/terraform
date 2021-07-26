@@ -47,6 +47,6 @@ variable "Training_Numbers" {
 }
 
 output "Training_Numbers" {
-  value = var.Training_Numbers ["DevOps"]
+  value = var.Training_Numbers["DevOps"]
 }
 
