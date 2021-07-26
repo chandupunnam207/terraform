@@ -39,10 +39,10 @@ variable "Training_Topics" {
 }
 
 output "Training_DevOps" {
-  value = var.Training_Topics[0]
+  value = var.Training_Topics
   }
 
 output "Training_AWS" {
-  value = var.Training_Topics[1]
+  value = var.Training_Topics
 }
 
