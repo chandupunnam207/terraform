@@ -34,9 +34,9 @@ output "Project" {
 }
 
 output "Project_Details_1" {
-  value = var.Project_Details [0]
+  value = var.Project_Details[0]
 }
 
 output "Project_Details" {
-  value = var.Project_Details [1]
+  value = var.Project_Details[1]
 }
