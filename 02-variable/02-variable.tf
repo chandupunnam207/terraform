@@ -39,14 +39,14 @@ output "Second_Training" {
   value = var.Trainings[1]
 }
 
-variable "Training_Numbers" {
+variable "Training_Topics" {
   default = {
     Training_one = "Devops"
     Training_two = "AWS"
   }
 }
 
-output "Training_Numbers" {
-  value = var.Training_Numbers["DevOps"]
+output "Training_Topics" {
+  value = var.Training_Topics
 }
 
