@@ -16,3 +16,15 @@ output "test2" {
   value = var.test1
 }
 
+variable "Project" {
+  default = {
+    project1 = "frontend",
+    project2 = database,
+    project3 = true
+  }
+
+}
+
+output "Project" {
+  value = var.Project
+}
