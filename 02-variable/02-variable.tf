@@ -22,7 +22,15 @@ variable "Project" {
   default = "DevOps"
 }
 
-
 output "Project" {
   value = var.Project
+}
+
+
+variable "Trainings" {
+  default = [ "DevOps", "AWS" ]
+}
+
+output "Trainings" {
+  value = var.Trainings[0]
 }
