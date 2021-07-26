@@ -48,9 +48,6 @@ variable "Training_Numbers" {
 }
 
 output "Training_Numbers" {
-  value = var.Training_Numbers [0]
+  value = var.Training_Numbers
   }
 
-output "Training_Numbers1" {
-  value = var.Training_Numbers [1]
-}
