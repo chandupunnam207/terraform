@@ -17,14 +17,22 @@ output "test2" {
 }
 
 variable "Project" {
+  default = ["DevOps","AWS"]
+}
+
+variable "Project_Details" {
   default = {
-    project1 = "frontend",
-    project2 = database,
-    project3 = true
+    Devops = "All weekdays"
+    AWS = "All weekends"
+
   }
 
 }
 
 output "Project" {
   value = var.Project
+}
+
+output "Project_Details" {
+  value = var.Project_Details
 }
