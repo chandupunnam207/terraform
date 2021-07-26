@@ -1,6 +1,5 @@
 variable "sample" {
   default = "Hello World"
-
 }
 
 variable "sample2" {
@@ -8,9 +7,9 @@ variable "sample2" {
 }
 
 output "sample" {
-  value = "var.sample"
+  value = var.sample
 }
 
 output "sample2" {
-  value = "var.sample2"
+  value = var.sample2
 }
