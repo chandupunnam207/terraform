@@ -18,14 +18,6 @@ output "test2" {
 
 
 ###################################################
-variable "Project" {
-  default = "DevOps"
-}
-
-output "Project" {
-  value = var.Project
-}
-
 
 variable "Trainings" {
   default = [ "DevOps", "AWS" ]
@@ -46,7 +38,10 @@ variable "Training_Topics" {
   }
 }
 
-output "Training_Topics" {
-  value = var.Training_Topics
-}
+output "Training_DevOps" {
+  value = "First Training Topic is = ${var.Training_Topics["DevOps"]}"
+  }
 
+output "Training_AWS" {
+  value = "Second Training Topic is = ${var.Training_Topics["DevOps"]}"
+}
