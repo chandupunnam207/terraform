@@ -1,15 +1,9 @@
-variable "sample" {
-  default = "Hello World"
+variable "test" {
+  default = "Welcome to first test"
+
 }
 
-variable "sample2" {
-  default = "Welcome to terraform"
-}
+variable "test1" {
+  default = "Welcome to second test"
 
-output "sample" {
-  value = var.sample
-}
-
-output "sample2" {
-  value = var.sample2
 }
