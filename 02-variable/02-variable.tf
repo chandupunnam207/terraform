@@ -39,9 +39,10 @@ variable "Training_Topics" {
 }
 
 output "Training_DevOps" {
-  value = "First Training Topic is = ${var.Training_Topics["DevOps"]}"
+  value = var.Training_Topics[0]
   }
 
 output "Training_AWS" {
-  value = "Second Training Topic is = ${var.Training_Topics["AWS"]}"
+  value = var.Training_Topics[1]
 }
+
