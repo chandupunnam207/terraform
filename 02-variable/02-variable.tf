@@ -8,7 +8,7 @@ variable "test2" {
 
 }
 
-output "test1" {
+output test1 {
   value = var.test1
 }
 
