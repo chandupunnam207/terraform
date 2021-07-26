@@ -31,6 +31,10 @@ variable "Trainings" {
   default = [ "DevOps", "AWS" ]
 }
 
-output "Trainings" {
+output "First_Training" {
   value = var.Trainings[0]
+}
+
+output "Second_Training" {
+  value = var.Trainings[1]
 }
